@@ -28,7 +28,7 @@ int main()
 	} */
 	/*putchar(ch);
 	printf("%c\n", ch);*/
-	int cha = 0;
+	/*int cha = 0;
 	int ret = 0;
 	char password[10] = {0};
 	printf("«Î ‰»Î√‹¬Î£∫\n");
@@ -46,6 +46,15 @@ int main()
 	else
 	{
 		printf("»∑»œ ß∞‹");
+	}*/
+	int i = 0;
+	int n = 0;
+	int s1 = 1;
+	scanf("%d", &n);
+	for (i=1; i<=n; i++)
+	{
+		s1 = s1 * i;
 	}
+	printf("ret=%d", s1);
 	return 0;
 }
